@@ -22,6 +22,9 @@
 		3A45988D1CC1FDF400DAA9FC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A45988C1CC1FDF400DAA9FC /* CoreData.framework */; };
 		3A4598921CC38AE500DAA9FC /* Department+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A45988F1CC38AE500DAA9FC /* Department+CoreDataProperties.m */; };
 		3A4598931CC38AE500DAA9FC /* Department.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4598911CC38AE500DAA9FC /* Department.m */; };
+		3A7784C61CC9FB3700481BCF /* Weibo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A7784C41CC9FB3700481BCF /* Weibo.xcdatamodeld */; };
+		3A7784CB1CC9FB8C00481BCF /* Status+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7784C81CC9FB8C00481BCF /* Status+CoreDataProperties.m */; };
+		3A7784CC1CC9FB8C00481BCF /* Status.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7784CA1CC9FB8C00481BCF /* Status.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +72,11 @@
 		3A45988F1CC38AE500DAA9FC /* Department+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Department+CoreDataProperties.m"; sourceTree = "<group>"; };
 		3A4598901CC38AE500DAA9FC /* Department.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Department.h; sourceTree = "<group>"; };
 		3A4598911CC38AE500DAA9FC /* Department.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Department.m; sourceTree = "<group>"; };
+		3A7784C51CC9FB3700481BCF /* Weibo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Weibo.xcdatamodel; sourceTree = "<group>"; };
+		3A7784C71CC9FB8C00481BCF /* Status+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Status+CoreDataProperties.h"; sourceTree = "<group>"; };
+		3A7784C81CC9FB8C00481BCF /* Status+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Status+CoreDataProperties.m"; sourceTree = "<group>"; };
+		3A7784C91CC9FB8C00481BCF /* Status.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Status.h; sourceTree = "<group>"; };
+		3A7784CA1CC9FB8C00481BCF /* Status.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Status.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +140,11 @@
 				3A4598591CC1FA8800DAA9FC /* coredata_____.xcdatamodeld */,
 				3A45984D1CC1FA8800DAA9FC /* Supporting Files */,
 				3A4598831CC1FB5300DAA9FC /* Company.xcdatamodeld */,
+				3A7784C41CC9FB3700481BCF /* Weibo.xcdatamodeld */,
+				3A7784C71CC9FB8C00481BCF /* Status+CoreDataProperties.h */,
+				3A7784C81CC9FB8C00481BCF /* Status+CoreDataProperties.m */,
+				3A7784C91CC9FB8C00481BCF /* Status.h */,
+				3A7784CA1CC9FB8C00481BCF /* Status.m */,
 				3A4598861CC1FC5A00DAA9FC /* Employee+CoreDataProperties.h */,
 				3A4598871CC1FC5A00DAA9FC /* Employee+CoreDataProperties.m */,
 				3A4598881CC1FC5A00DAA9FC /* Employee.h */,
@@ -300,11 +313,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A7784C61CC9FB3700481BCF /* Weibo.xcdatamodeld in Sources */,
 				3A4598851CC1FB5300DAA9FC /* Company.xcdatamodeld in Sources */,
 				3A4598921CC38AE500DAA9FC /* Department+CoreDataProperties.m in Sources */,
 				3A45985B1CC1FA8800DAA9FC /* coredata_____.xcdatamodeld in Sources */,
+				3A7784CB1CC9FB8C00481BCF /* Status+CoreDataProperties.m in Sources */,
 				3A4598551CC1FA8800DAA9FC /* ViewController.m in Sources */,
 				3A45988A1CC1FC5A00DAA9FC /* Employee+CoreDataProperties.m in Sources */,
+				3A7784CC1CC9FB8C00481BCF /* Status.m in Sources */,
 				3A4598521CC1FA8800DAA9FC /* AppDelegate.m in Sources */,
 				3A45984F1CC1FA8800DAA9FC /* main.m in Sources */,
 				3A45988B1CC1FC5A00DAA9FC /* Employee.m in Sources */,
@@ -532,6 +548,7 @@
 				3A45987C1CC1FA8900DAA9FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3A45987D1CC1FA8900DAA9FC /* Build configuration list for PBXNativeTarget "coredata的简单使用Tests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +557,7 @@
 				3A45987F1CC1FA8900DAA9FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3A4598801CC1FA8900DAA9FC /* Build configuration list for PBXNativeTarget "coredata的简单使用UITests" */ = {
 			isa = XCConfigurationList;
@@ -548,6 +566,7 @@
 				3A4598821CC1FA8900DAA9FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
@@ -569,6 +588,16 @@
 			);
 			currentVersion = 3A4598841CC1FB5300DAA9FC /* Company.xcdatamodel */;
 			path = Company.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		3A7784C41CC9FB3700481BCF /* Weibo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3A7784C51CC9FB3700481BCF /* Weibo.xcdatamodel */,
+			);
+			currentVersion = 3A7784C51CC9FB3700481BCF /* Weibo.xcdatamodel */;
+			path = Weibo.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
