@@ -13,8 +13,8 @@
 
 @implementation Status (CoreDataProperties)
 
-@dynamic text;
-@dynamic createDate;
 @dynamic author;
+@dynamic createDate;
+@dynamic text;
 
 @end
